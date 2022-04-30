@@ -1,0 +1,25 @@
+alfabeto - abcdef...
+binário - 01
+numérico - 0123456789
+hexadecimal - 0123456789ABCDEF
+
+Conseguimos ver o espectro de três cores
+RGB = Red Green Blue
+
+# _ _ _ _ _ _ = # R R G G B B
+
+0 = ausência de cor
+F = Máximo da cor
+
+#000000 - ausência de cor (preto)
+#FFFFFF - todas as cores (branco)
+
+Dicionariao RGB = 0, 1, 2, ..., 255
+
+0 = ausência de cor
+255 = Máximo da cor
+
+rgb(R,G,B)
+
+rgb(255, 255, 255) (branco)
+rgb(0, 0, 255) (azul)

@@ -1,0 +1,15 @@
+body{
+    background: #CCCCCC;
+}
+/* background irá mudar a cor de fundo do body(pagina inteira), utilizando a linguagem hexadecimal*/
+p{
+    text-align: center;
+}
+/* irá fazer com que todos os paragrafos se alinhem no centro da pagina*/
+em strong{
+    color: rgb(255,0,0);
+}
+/* faz com que todos os caracteres em um "strong" no qual está dentro de um "em" fiquem na cor vermelha*/
+
+/* Como funciona o estilo em cascata do CSS? - Tudo que eu adiciono no elemento pai reflete nos elementos filhos*/
+/* De que maneiras eu posso representar cores no CSS? - Hexadecimal #FF0000, rgb(255,0,0) e com os nomes das cores(red)*/

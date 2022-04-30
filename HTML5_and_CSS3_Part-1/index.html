@@ -3,13 +3,20 @@
     <head> <!-- A informações que passamos para o navegador ficam no <head> -->
         <meta charset="UTF-8"> <!-- meta - passa informações para o navegador, atributo - charset(conjunto de caracteres), UTF-8 - Dicionario (linguagens comuns do mundo - acentos)-->
 
-    <title>
-        Barbearia Alura
-    </title>
+        <title>
+            Barbearia Alura
+        </title>
+        <link rel="stylesheet" href="style.css"> <!-- href - endereço de referência -->
+
+        <style>
+
+        </style>
+        <!-- Segunda forma de utilizar o CSS = chamando a tag style e aplica o conteudo para todos os valores p (paragrafos) -->
+        <!-- Terceira forma de utilizar o CSS = criando um arquivo .css, chamando ele atráves de <link rel="stylesheet" href="style.css">-->
     </head>
 
-    <body> <!-- As informações que exibimos na página ficam no <body> -->>
-        <h1> <!-- Utilizado para construção do título da página -->
+    <body> <!-- As informações que exibimos na página ficam no <body> -->
+        <h1 style="text-align: center"> <!-- Utilizado para construção do título da página -->
             Sobre a Barbearia Alura
         </h1> <!--Faz o fechamento da função titulo-->
     
@@ -18,18 +25,22 @@
             Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia. 
         </p>
     
-        <p>
+        <p style="font-size: 20px"> <!-- primeiro forma de utilizar o CSS = style - propriedade, conteudo - muda o tamanho da fonte do paragrafo-->
             <em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em> <!-- "em" é utilizado para transformar o paragrafo em italico-->
         </p> <!-- "em" é utilizado para transformar o paragrafo em italico (marcação de ênfase)-->
              <!-- "strong" é utilizado para transformar o paragrafo em negrito (marcação de destaque)-->
     
-        <p>
+        <p> <!-- text-align: center - faz com que os textos sejam centralizados -->
             Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência 
             e agilidade, garantindo qualidade e satisfação dos nossos clientes.
         </p>
     </body>
 </html> 
+
 <!-- As tags são semânticas e para cada uma delas temos um significado e um resultado diferente. Cada tag tem uma responsabilidade e um significado -->
 <!-- Função da tag <DOCTYPE> - Passar informações para o navegador sobre qual versão do HTML estamos usando-->
 <!-- Importância de utilizar charset="UTF-8" - Para que todos os usuários vejam o site com o dicionário correto-->
 <!-- Diferença de colocar informações no head e no body? - O conteúdo fica no body e informações no head -->
+<!-- Separamos a propriedade e o seu valor no CSS - utilizando o caractere : no qual serve para atribuir um valor a uma propriedade -->
+<!-- A maneira correta para declara um CSS que pode ser usado em várias páfinas diferentes é: Em um arquivo externo, e fazendo referência
+     a esse arquivo, podemos usar o mesmo CSS em páginas diferentes -->
