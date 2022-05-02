@@ -8,15 +8,15 @@
         </title>
         <link rel="stylesheet" href="style.css"> <!-- href - endereço de referência -->
 
-        <style>
-
-        </style>
         <!-- Segunda forma de utilizar o CSS = chamando a tag style e aplica o conteudo para todos os valores p (paragrafos) -->
         <!-- Terceira forma de utilizar o CSS = criando um arquivo .css, chamando ele atráves de <link rel="stylesheet" href="style.css">-->
     </head>
 
     <body> <!-- As informações que exibimos na página ficam no <body> -->
-        <h1 style="text-align: center"> <!-- Utilizado para construção do título da página -->
+
+        <img id="banner" src="banner.jpg"> <!-- tag de imagem(img), sendo seu atributo a fonte(src) do arquivo .jpg-->
+        <!-- id="" faz com que possamos mudar apenas aquela tag-->
+        <h1> <!-- Utilizado para construção do título da página -->
             Sobre a Barbearia Alura
         </h1> <!--Faz o fechamento da função titulo-->
     
@@ -25,7 +25,7 @@
             Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia. 
         </p>
     
-        <p style="font-size: 20px"> <!-- primeiro forma de utilizar o CSS = style - propriedade, conteudo - muda o tamanho da fonte do paragrafo-->
+        <p id="missao"> <!-- primeiro forma de utilizar o CSS = style - propriedade, conteudo - muda o tamanho da fonte do paragrafo-->
             <em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em> <!-- "em" é utilizado para transformar o paragrafo em italico-->
         </p> <!-- "em" é utilizado para transformar o paragrafo em italico (marcação de ênfase)-->
              <!-- "strong" é utilizado para transformar o paragrafo em negrito (marcação de destaque)-->
@@ -44,3 +44,4 @@
 <!-- Separamos a propriedade e o seu valor no CSS - utilizando o caractere : no qual serve para atribuir um valor a uma propriedade -->
 <!-- A maneira correta para declara um CSS que pode ser usado em várias páfinas diferentes é: Em um arquivo externo, e fazendo referência
      a esse arquivo, podemos usar o mesmo CSS em páginas diferentes -->
+<!-- Para adicionar uma imagem - <img src="endereço"> (A tag img tem a propriedade src, onde adicionamos o endereço)-->

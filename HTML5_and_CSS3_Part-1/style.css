@@ -2,8 +2,17 @@ body{
     background: #CCCCCC;
 }
 /* background irá mudar a cor de fundo do body(pagina inteira), utilizando a linguagem hexadecimal*/
+#banner{ /* identidade da tag a ser alterada */
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
 p{
     text-align: center;
+}
+#missao{
+    font-size: 20px;
 }
 /* irá fazer com que todos os paragrafos se alinhem no centro da pagina*/
 em strong{
@@ -13,3 +22,4 @@ em strong{
 
 /* Como funciona o estilo em cascata do CSS? - Tudo que eu adiciono no elemento pai reflete nos elementos filhos*/
 /* De que maneiras eu posso representar cores no CSS? - Hexadecimal #FF0000, rgb(255,0,0) e com os nomes das cores(red)*/
+/*Propriedade para se alterar a largura do elemento - O width é a propriedade que devemos manipular para alterar a largura do elemento*/
