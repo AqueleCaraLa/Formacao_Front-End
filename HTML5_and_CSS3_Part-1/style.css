@@ -1,10 +1,16 @@
 body{
-    background: #CCCCCC;
+
 }
 /* background irá mudar a cor de fundo do body(pagina inteira), utilizando a linguagem hexadecimal*/
 #banner{ /* identidade da tag a ser alterada */
     width: 100%;
 }
+
+.principal{
+    background: gray;
+    padding: 30px;
+}
+
 h1{
     text-align: center;
 }
@@ -18,6 +24,32 @@ p{
 em strong{
     color: rgb(255,0,0);
 }
+
+.itens{
+    font-style: italic;
+}
+
+.beneficios{
+    background: white;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios{
+    width: 50%;
+
+}
+
 /* faz com que todos os caracteres em um "strong" no qual está dentro de um "em" fiquem na cor vermelha*/
 
 /* Como funciona o estilo em cascata do CSS? - Tudo que eu adiciono no elemento pai reflete nos elementos filhos*/

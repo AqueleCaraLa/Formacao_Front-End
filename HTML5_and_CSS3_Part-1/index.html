@@ -16,24 +16,43 @@
 
         <img id="banner" src="banner.jpg"> <!-- tag de imagem(img), sendo seu atributo a fonte(src) do arquivo .jpg-->
         <!-- id="" faz com que possamos mudar apenas aquela tag-->
-        <h1> <!-- Utilizado para construção do título da página -->
-            Sobre a Barbearia Alura
-        </h1> <!--Faz o fechamento da função titulo-->
-    
-        <p> <!-- Utlizado para contrução do texto da página -->
-            Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
-            Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia. 
-        </p>
-    
-        <p id="missao"> <!-- primeiro forma de utilizar o CSS = style - propriedade, conteudo - muda o tamanho da fonte do paragrafo-->
-            <em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em> <!-- "em" é utilizado para transformar o paragrafo em italico-->
-        </p> <!-- "em" é utilizado para transformar o paragrafo em italico (marcação de ênfase)-->
-             <!-- "strong" é utilizado para transformar o paragrafo em negrito (marcação de destaque)-->
-    
-        <p> <!-- text-align: center - faz com que os textos sejam centralizados -->
-            Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência 
-            e agilidade, garantindo qualidade e satisfação dos nossos clientes.
-        </p>
+
+        <div class="principal">
+            <h1> <!-- Utilizado para construção do título da página -->
+                Sobre a Barbearia Alura
+            </h1> <!--Faz o fechamento da função titulo-->
+        
+            <p> <!-- Utlizado para contrução do texto da página -->
+                Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
+                Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia. 
+            </p>
+        
+            <p id="missao"> <!-- primeiro forma de utilizar o CSS = style - propriedade, conteudo - muda o tamanho da fonte do paragrafo-->
+                <em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em> <!-- "em" é utilizado para transformar o paragrafo em italico-->
+            </p> <!-- "em" é utilizado para transformar o paragrafo em italico (marcação de ênfase)-->
+                <!-- "strong" é utilizado para transformar o paragrafo em negrito (marcação de destaque)-->
+        
+            <p> <!-- text-align: center - faz com que os textos sejam centralizados -->
+                Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência 
+                e agilidade, garantindo qualidade e satisfação dos nossos clientes.
+            </p>
+        </div>
+
+        <div class="beneficios">
+            <h2> 
+                Benefícios
+            </h2>
+
+            <ul> <!-- A tag para lista é a (ul) e cada item da lista precisa ser marcado com um (li) -->
+                <li class="itens">Atendimento aos clientes</li>
+                <li class="itens">Espaço diferenciado</li>
+                <li class="itens">Localização</li>
+                <li class="itens">Profissionais Qualificados</li>                                                
+            </ul>
+
+            <img src="beneficios.jpg" class="imagembeneficios">
+        </div>
+
     </body>
 </html> 
 
@@ -45,3 +64,5 @@
 <!-- A maneira correta para declara um CSS que pode ser usado em várias páfinas diferentes é: Em um arquivo externo, e fazendo referência
      a esse arquivo, podemos usar o mesmo CSS em páginas diferentes -->
 <!-- Para adicionar uma imagem - <img src="endereço"> (A tag img tem a propriedade src, onde adicionamos o endereço)-->
+<!-- A tag (div) é a tag específica para dividir o conteúdo. Ela não tem outra função além dessa -->
+<!-- A (class) serve para replicarmos a aplicação do nosso CSS, sem precisar copiar e colá-lo em vários elementos. Aplicamos a classe para isso. --> 
