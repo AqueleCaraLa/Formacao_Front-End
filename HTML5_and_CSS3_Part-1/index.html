@@ -13,14 +13,18 @@
     </head>
 
     <body> <!-- As informações que exibimos na página ficam no <body> -->
-
+        <header>
+            <h1 class="titulo-principal"> 
+                Barbearia Alura
+            </h1>
+        </header>
         <img id="banner" src="banner.jpg"> <!-- tag de imagem(img), sendo seu atributo a fonte(src) do arquivo .jpg-->
         <!-- id="" faz com que possamos mudar apenas aquela tag-->
 
         <div class="principal">
-            <h1> <!-- Utilizado para construção do título da página -->
+            <h2 class="titulo-centralizado"> <!-- Utilizado para construção do título da página -->
                 Sobre a Barbearia Alura
-            </h1> <!--Faz o fechamento da função titulo-->
+            </h2> <!--Faz o fechamento da função titulo-->
         
             <p> <!-- Utlizado para contrução do texto da página -->
                 Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
@@ -39,9 +43,9 @@
         </div>
 
         <div class="beneficios">
-            <h2> 
+            <h3 class="titulo-centralizado"> 
                 Benefícios
-            </h2>
+            </h3>
 
             <ul> <!-- A tag para lista é a (ul) e cada item da lista precisa ser marcado com um (li) -->
                 <li class="itens">Atendimento aos clientes</li>
@@ -66,3 +70,4 @@
 <!-- Para adicionar uma imagem - <img src="endereço"> (A tag img tem a propriedade src, onde adicionamos o endereço)-->
 <!-- A tag (div) é a tag específica para dividir o conteúdo. Ela não tem outra função além dessa -->
 <!-- A (class) serve para replicarmos a aplicação do nosso CSS, sem precisar copiar e colá-lo em vários elementos. Aplicamos a classe para isso. --> 
+<!-- A tag (header) é uma tag de conteúdo do HTML, e não uma tag de estrutura. Utilizada quando queremos criar um cabeçalho na página -->
