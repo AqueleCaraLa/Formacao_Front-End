@@ -1,0 +1,22 @@
+header{
+    background: #BBBBBB;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/* display: inline, transforma a lista que está na forma de "block" em uma lista "inline"*/
+/* text-transform: uppercase, a propriedade text-transform é a responsável pela transformação do texto para maiúsculo, quando usamos o valor uppercase */
+/* font-weight: bold, faz com que a fonte da lista seja em negrito (peso da fonte: negrito)*/
+/* text-decoration: none, faz com que a decoração do texto seja retirada, no caso, a sublinhação*/
+/* margin: 0(topo) 0(direita) 0(baixo) 0(esquerda), essa função faz com que ocorra um margem entre os textos da lista no qual está sendo usado/
