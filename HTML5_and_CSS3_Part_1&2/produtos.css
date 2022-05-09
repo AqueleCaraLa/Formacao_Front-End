@@ -1,5 +1,18 @@
 header{
     background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
 nav li{
@@ -20,3 +33,6 @@ nav a{
 /* font-weight: bold, faz com que a fonte da lista seja em negrito (peso da fonte: negrito)*/
 /* text-decoration: none, faz com que a decoração do texto seja retirada, no caso, a sublinhação*/
 /* margin: 0(topo) 0(direita) 0(baixo) 0(esquerda), essa função faz com que ocorra um margem entre os textos da lista no qual está sendo usado/
+/* position: absolute, conseguimos posicionar o elemento em qualquer lugar da página */
+/* Alinhar uma div ao centro - Delegamos para o navegador a conta de calcular a largura que resta, dividir
+por dois, e adicionar metade em cada um dos lados */
