@@ -28,6 +28,37 @@ nav a{
     text-decoration: none;
 }
 
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 /* display: inline, transforma a lista que está na forma de "block" em uma lista "inline"*/
 /* text-transform: uppercase, a propriedade text-transform é a responsável pela transformação do texto para maiúsculo, quando usamos o valor uppercase */
 /* font-weight: bold, faz com que a fonte da lista seja em negrito (peso da fonte: negrito)*/
@@ -36,3 +67,6 @@ nav a{
 /* position: absolute, conseguimos posicionar o elemento em qualquer lugar da página */
 /* Alinhar uma div ao centro - Delegamos para o navegador a conta de calcular a largura que resta, dividir
 por dois, e adicionar metade em cada um dos lados */
+/* Um elemento que tem o seu display, com o valor inline-block. O tamanho pode ser ajustado, tanto na largura, quanto na altura. */
+/* Comportamento do elemento ao adicionar o padding(espaçamento interno). O elemento aumanta o seu tamanho. 
+Quando declaro que existe um espaçamento interno, estou aumentando o conteúdo.*/
